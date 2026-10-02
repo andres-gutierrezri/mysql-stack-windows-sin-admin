@@ -1,0 +1,28 @@
+# Configuración local y secretos
+.env
+*.cnf.tmp
+*.sql.tmp
+
+# Descargas, binarios e instalaciones locales
+_cache/
+_tmp/
+*.zip
+*.msi
+dist/
+MySQL/
+
+# Registros y resultados de pruebas
+logs/
+*.log
+TestResults.xml
+coverage.xml
+
+# Editores / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,9 @@
+# ============================================================================
+# requirements.txt - Dependencias de DESARROLLO y PRUEBAS (PowerShell Gallery)
+# La instalación del stack MySQL NO requiere ningún módulo adicional.
+# Instalación sin Administrador:
+#   Install-Module Pester          -MinimumVersion 5.5.0  -Scope CurrentUser -Force -SkipPublisherCheck
+#   Install-Module PSScriptAnalyzer -MinimumVersion 1.22.0 -Scope CurrentUser -Force
+# ============================================================================
+Pester>=5.5.0
+PSScriptAnalyzer>=1.22.0
